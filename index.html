@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Trett Labs Limited: UK software studio behind Beequation and CoAmi</title>
-<meta name="description" content="Trett Labs Limited is a UK company that builds and runs its own software products: Beequation, Beequation Kids, CoAmi and WikiBets.">
+<meta name="description" content="Trett Labs Limited is a UK company that builds and runs its own software products: Beequation, Beequation Kids and CoAmi.">
 <link rel="canonical" href="https://trettlabs.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Trett Labs">
 <meta property="og:title" content="Trett Labs Limited: UK software studio behind Beequation and CoAmi">
-<meta property="og:description" content="Trett Labs Limited is a UK company that builds and runs its own software products: Beequation, Beequation Kids, CoAmi and WikiBets.">
+<meta property="og:description" content="Trett Labs Limited is a UK company that builds and runs its own software products: Beequation, Beequation Kids and CoAmi.">
 <meta property="og:url" content="https://trettlabs.com/">
 <meta property="og:image" content="https://trettlabs.com/assets/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -25,7 +25,7 @@
 :root {
   --bg: #F6F7F9; --surface: #FFFFFF; --ink: #10141C; --body: #2E3644; --mute: #657084; --line: #E2E6EC;
   --accent: #FFB020; --accent-ink: #10141C; --link: #2B50E8;
-  --kids: #6A4BF5; --coami: #2B50E8; --adult: #10141C;
+  --kids: #6A4BF5; --coami: #2B50E8;
   --shadow: 0 1px 2px rgba(16,20,28,.05), 0 8px 24px rgba(16,20,28,.06);
   color-scheme: light dark;
 }
@@ -80,11 +80,6 @@ section { padding: 72px 0 0; scroll-margin-top: 16px; }
 .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
 .dot.dev { background: #8C96A8; }
 
-/* adults-only panel */
-.adults { margin-top: 28px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); padding: 26px; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 28px; align-items: center; box-shadow: var(--shadow); }
-.adults .label { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--mute); margin-bottom: 14px; }
-.age { display: inline-grid; place-items: center; min-width: 38px; height: 26px; padding: 0 6px; border-radius: 6px; background: #C8102E; color: #fff; font-size: 13px; font-weight: 700; letter-spacing: 0; }
-.adults .rg { margin: 0; padding: 16px 18px; border-radius: 14px; background: var(--bg); border: 1px solid var(--line); font-size: 15px; }
 
 /* about + details */
 .about { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; }
@@ -106,7 +101,7 @@ footer a { color: var(--mute); }
 
 @media (max-width: 900px) {
   .grid { grid-template-columns: 1fr 1fr; }
-  .adults, .about { grid-template-columns: 1fr; }
+  .about { grid-template-columns: 1fr; }
 }
 @media (max-width: 620px) {
   .top nav { display: none; }
@@ -129,7 +124,7 @@ footer a { color: var(--mute); }
     <section class="hero" style="padding-top:72px" aria-labelledby="hero-h">
       <p class="eyebrow">Trett Labs Limited · Mirfield, West Yorkshire</p>
       <h1 id="hero-h">We build and run our own software.</h1>
-      <p class="lede">Trett Labs is a UK company behind a small family of products: maths puzzle apps for adults and children, AI-built business software, and a betting comparison service for adults.</p>
+      <p class="lede">Trett Labs is a UK company behind a small family of products: maths puzzle apps for adults and children, and AI-built business software.</p>
       <div class="btns"><a class="btn primary" href="#products">See our products</a><a class="btn ghost" href="#contact">Get in touch</a></div>
     </section>
 
@@ -163,19 +158,6 @@ footer a { color: var(--mute); }
           <p class="desc">Custom business software instead of off-the-shelf subscriptions. Describe your workflow to Ami in plain English; AI agents build, test and deploy it for you.</p>
           <div class="foot"><span class="pill"><span class="dot dev"></span>In development</span></div>
         </article>
-      </div>
-
-      <div class="adults" aria-labelledby="p-wb">
-        <div>
-          <div class="label"><span class="age" aria-label="Adults only, 18 and over">18+</span>For adults only</div>
-          <div class="head" style="display:flex;align-items:center;gap:14px;margin-bottom:12px">
-            <div class="logo" style="background:var(--adult);border:1px solid var(--line)" aria-hidden="true">W</div>
-            <div><h3 id="p-wb" style="font-size:22px">WikiBets</h3><p class="who" style="margin:2px 0 0;font-size:14px;color:var(--mute)">Web service · adults aged 18 and over</p></div>
-          </div>
-          <p style="margin:0 0 14px">A comparison service for online betting: compare odds, offers and operators, with reviews of bookmakers and gaming sites.</p>
-          <span class="pill"><span class="dot dev"></span>In development</span>
-        </div>
-        <p class="rg">WikiBets is for adults aged 18 and over only. Please gamble responsibly. For free, confidential advice and support, visit <a href="https://www.begambleaware.org/">BeGambleAware.org</a>.</p>
       </div>
     </section>
 
