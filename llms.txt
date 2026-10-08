@@ -1,0 +1,8 @@
+# Trett Labs
+
+> Trett Labs Limited is a UK software company (registered in England and Wales, company number 17310137; Mirfield, West Yorkshire; director Lee Trett) that builds and runs its own products.
+
+- [Beequation and Beequation Kids](https://beequation.com/): mental maths puzzle apps for adults and for children aged 5 to 12, coming soon to iPhone and Android
+- CoAmi: AI-built custom business software (in development)
+- WikiBets: a betting comparison service for adults aged 18 and over (in development)
+- Contact: hello@trettlabs.com
